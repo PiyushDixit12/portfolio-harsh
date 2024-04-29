@@ -1,7 +1,6 @@
 import {FaHtml5} from "react-icons/fa";
 import {FaCss3Alt} from "react-icons/fa";
 import {TbBrandBootstrap} from "react-icons/tb";
-import {TbBrandJavascript} from "react-icons/tb";
 import {FaGitAlt} from "react-icons/fa";
 import {BiLogoFlutter} from "react-icons/bi";
 import {TbBrandVscode} from "react-icons/tb";
