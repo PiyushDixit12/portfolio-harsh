@@ -5,7 +5,7 @@ import {motion} from "framer-motion"
 export const ProjectCard = ({img,title,description,aboutLocation,demoURL}) => {
     return (
         <motion.div
-            whileHover={{scale: 1.02,border: "1px solid rgb(172, 65, 255)"}}
+            whileHover={{scale: 1.02,border: "1px solid rgb(21,181,114)"}}
             transition={{delay: 0.1,duration: .75,type: "tween",stiffness: 400}}
             className=" col-11 p-2  mx-auto my-3 rounded-3 shadow">
             <div className=" card  border-0" >
@@ -15,9 +15,9 @@ export const ProjectCard = ({img,title,description,aboutLocation,demoURL}) => {
                     </div>
                     <div className="px-3 col-md-6">
                         <div className="card-body">
-                            <h5 className="card-title fs-3 lh-lg"> {title} </h5>
-                            <p className="card-text text-justify">{description}</p>
-                            <p className="card-text"><small className="text-body-secondary">{aboutLocation}</small></p>
+                            <h5 className="card-title text-white fs-3 lh-lg"> {title} </h5>
+                            <p className="card-text text-justify text-white-50">{description}</p>
+                            <p className="card-text"><small className=" text-light-emphasis">{aboutLocation}</small></p>
 
                             <Nav.Link href={demoURL} target='_blank' className=' text-center custom-color fs-6 fw-bold'> DEMO</Nav.Link>
                         </div>

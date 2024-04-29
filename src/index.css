@@ -1,25 +1,38 @@
-
-.active{
-  border-bottom: 2px solid rgb(172, 65, 255);
+:root{
+  --bs-body-bg:rgb(7,17,26) !important;
 }
+.active{
+  border-bottom: 2px solid rgb(21,181,114);
+}
+
 #root{
   overflow-x: hidden !important;
+}
+
+body{
+  background-color: rgb(7,17,26) !important;
+  color: white !important;
 }
 .custom-color,
 .custom-color:hover,
 .custom-color:active,
 .custom-color:visited{
-  color: rgb(172, 65, 255);
+  color:rgb(21,181,114) !important;
 }
 
 .custom-icon:hover{
-  color: rgb(172, 65, 255);
+  color:rgb(21,181,114);
   cursor: pointer;
 }
-
+.border-custom-color{
+  border-color:rgb(0, 140, 82) !important;
+}
+.bg-transparent{
+  background-color: transparent !important;
+}
    .btn-custom, .btn-custom:active,.btn-custom:hover{
-            background: rgb(172, 65, 255);
-            border: 2px solid rgb(172, 65, 255) !important;
+            background:rgb(21,181,114);
+            border: 2px solid rgb(21,181,114) !important;
             color: white;
         }
         
@@ -28,13 +41,13 @@
         }
         /* .btn-custom:hover,
         .btn-custom:active {
-            border: 2px solid rgb(172, 65, 255) !important;
-            color: rgb(172, 65, 255) !important;
+            border: 2px solidrgb(21,181,114) !important;
+            color:rgb(21,181,114) !important;
 
         } */
 
 .heading-title{
-  border-bottom:4px solid rgb(172, 65, 255) ;
+  border-bottom:4px solid rgb(21,181,114) ;
 }
 .fs-1{
   font-size: 4rem !important;
@@ -45,6 +58,7 @@ text-align: justify !important;
 }
 .card-skills{
   cursor: pointer;
+  background-color: transparent !important;
 }
 @media screen and (max-width:768px) {
   .fs-1{
@@ -63,7 +77,7 @@ text-align: justify !important;
 footer{
   position: relative;
   width: 100%;
-  background-color: rgb(172, 65, 255);
+  background-color:rgb(21,181,114) !important;
   min-height: 100px;
 }
 

@@ -13,7 +13,7 @@ export const Home = () => {
             <div className="row d-flex  align-items-center justify-content-between   px-2 pt-5 pb-0" data-section='home' id="home" style={{minHeight: "100vh"}}>
                 {/* <div className='w-100' style={{height: "50px"}}></div> */}
                 <div className="col-12 col-lg-6    d-flex   flex-column ">
-                    <motion.span
+                    {/* <motion.span
                         variants={fadeIn("up",0.3)}
                         initial="hidden"
                         whileInView={"show"}
@@ -21,15 +21,26 @@ export const Home = () => {
                         className='fs-1  fw-bold d-inline-block'
                     >
                         Hi ,👋
-                    </motion.span>
+                    </motion.span> */}
                     <motion.span
                         variants={fadeIn("up",0.3)}
                         initial="hidden"
                         whileInView={"show"}
                         viewport={{once: true,amount: 0.7}}
-                        className='fs-1 lh- fw-bold d-inline-block'
+                        className='fs-3 lh- fw-bold d-inline-block'
                     >
-                        I&apos;m  <span style={{color: "rgb(172, 65, 255)"}}> Piyush Dixit</span>
+                        <TypeAnimation
+                            sequence={[
+                                'Flutter Developer',
+                                2000,
+                                'Mobile App Developer',
+                                2000,
+                            ]}
+                            wrapper="span"
+                            speed={10}
+                            style={{display: 'inline-block',color: "rgb(21,181,114)"}}
+                            repeat={Infinity} />
+                        {/* <span style={{color: "rgb(21,181,114)"}}> Piyush Dixit</span> */}
                     </motion.span>
 
                     <motion.span
@@ -37,20 +48,26 @@ export const Home = () => {
                         initial="hidden"
                         whileInView={"show"}
                         viewport={{once: true,amount: 0.7}}
-                        className='fs-1 lh- fw-bold d-inline-block'
+                        className='fs-1 text-white fw-bold d-inline-block'
                     >
-                        <TypeAnimation
-                            sequence={[
-                                'Frontend Developer',
-                                2000,
-                                'React Developer',
-                                2000,
-                            ]}
-                            wrapper="span"
-                            speed={10}
-                            style={{display: 'inline-block'}}
-                            repeat={Infinity} />
+                        Harsh Dixit
                     </motion.span>
+                    <motion.span
+                        variants={fadeIn("up",0.3)}
+                        initial="hidden"
+                        whileInView={"show"}
+                        viewport={{once: true,amount: 0.7}}
+                        className='fs-6 text-white-50 fw-bold d-inline-block'>
+                        currently  working on <span className=' text-white'>web wider&apos;s solutions</span>
+                    </motion.span>
+                    <motion.span
+                        variants={fadeIn("up",0.3)}
+                        initial="hidden"
+                        whileInView={"show"}
+                        viewport={{once: true,amount: 0.7}}
+                        className='fs-6 text-white-50 fw-bold d-inline-block'>
+                        Need a full custom app ? <a href="#" className=' text-white custom-icon text-decoration-none'>let&apos;s talk</a>
+                    </motion.span>    
 
                     <motion.ul
                         variants={fadeIn("up",0.3)}
@@ -58,10 +75,10 @@ export const Home = () => {
                         whileInView={"show"}
                         viewport={{once: false,amount: 0.7}}
                         className="nav fs-1 lh-lg mt-3  d-flex justify-content-evenly justify-content-md-start  align-items-center list-unstyled d-flex">
-                        <li className="ms-sm-0"><a className="text-dark" title="linkedin" target='_blank' rel='noreferrer' href="https://linkedin.com/in/piyush-dixit-37066724a"><TiSocialLinkedin className='custom-icon' size={40} /></a></li>
-                        <li className="ms-sm-4"><a className="text-dark" title="Github" target='_blank' href="https://github.com/PiyushDixit12" rel="noreferrer"><SiGithub className='custom-icon' size={30} /></a></li>
+                        <li className="ms-sm-0"><a className="text-white" title="linkedin" target='_blank' rel='noreferrer' href="https://linkedin.com/in/harsh-dixit-1247a1233"><TiSocialLinkedin className='custom-icon' size={40} /></a></li>
+                        <li className="ms-sm-4"><a className="text-white" title="Github" target='_blank' href="https://github.com/PiyushDixit12" rel="noreferrer"><SiGithub className='custom-icon' size={30} /></a></li>
                         <li className="ms-sm-4">
-                            <a className="text-dark" target='_blank' title="whats'app" href="https://web.whatsapp.com/" rel="noreferrer"><FaWhatsapp className='custom-icon' size={30} /></a></li>
+                            <a className="text-white" target='_blank' title="whats'app" href="https://web.whatsapp.com/" rel="noreferrer"><FaWhatsapp className='custom-icon' size={30} /></a></li>
                     </motion.ul>
                 </div>
                 <motion.div

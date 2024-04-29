@@ -84,14 +84,15 @@ export const Contact = () => {
                                 >
                                     <Row>
                                         <Col md={6}>
-                                            <Form.Group className=" form-floating mb-3 rounded-3 border ">
+                                                    <Form.Group className=" form-floating mb-3 rounded-3 border border-custom-color">
                                                         <Form.Control type="text"
                                                             onChange={handleChange}
                                                             onBlur={handleBlur}
                                                             value={values.name}
+                                                            className=" bg-transparent text-white"
                                                             id="name"
                                                             name="name" />
-                                                <Form.Label htmlFor="name">Your name</Form.Label>
+                                                        <Form.Label htmlFor="name" className=" bg-transparent custom-color">Your name</Form.Label>
                                             </Form.Group>
                                                     <ErrorMessage component={"div"} className=" text-danger pb-2 ps-1" name="name" />
                                         </Col>
@@ -101,10 +102,11 @@ export const Contact = () => {
                                                             type="email"
                                                             id="email"
                                                             name="email"
+                                                            className=" bg-transparent text-white"
                                                             onChange={handleChange}
                                                             onBlur={handleBlur}
                                                             value={values.email} />
-                                                <Form.Label htmlFor="email">Your email</Form.Label>
+                                                        <Form.Label htmlFor="email" className=" bg-transparent custom-color">Your email</Form.Label>
 
                                             </Form.Group>
                                                     <ErrorMessage component={"div"} className=" text-danger pb-2 ps-1" name="email" />
@@ -113,14 +115,15 @@ export const Contact = () => {
 
                                     <Row>
                                         <Col md={12}>
-                                            <Form.Group className="form-floating mb-3  rounded-3 border">
+                                                    <Form.Group className="form-floating mb-3 bg-transparent  rounded-3 border">
                                                         <Form.Control
                                                             type="text"
                                                             onChange={handleChange}
                                                             onBlur={handleBlur}
                                                             value={values.subject}
+                                                            className=" bg-transparent text-white"
                                                             id="subject" name="subject" />
-                                                <Form.Label htmlFor="subject">Subject</Form.Label>
+                                                        <Form.Label htmlFor="subject" className=" bg-transparent custom-color">Subject</Form.Label>
                                             </Form.Group>
                                                     <ErrorMessage component={"div"} className=" text-danger pb-2 ps-1" name="subject" />
 
@@ -129,17 +132,18 @@ export const Contact = () => {
 
                                     <Row>
                                                 <Col md={12} className="pb-2">
-                                            <Form.Group className="form-floating mb-3  rounded-3 border">
+                                                    <Form.Group className="form-floating mb-3 bg-transparent  rounded-3 border">
                                                 <Form.Control
                                                     as="textarea"
                                                     id="message"
                                                     name="message"
+                                                            className=" bg-transparent text-white"
                                                     rows={2}
                                                             onChange={handleChange}
                                                             onBlur={handleBlur}
                                                             value={values.message}
                                                 />
-                                                <Form.Label htmlFor="message">Your message</Form.Label>
+                                                        <Form.Label htmlFor="message" className=" bg-transparent custom-color">Your message</Form.Label>
                                             </Form.Group>
                                                     <ErrorMessage component={"div"} className=" text-danger pb-2 ps-1" name="message" />
 
@@ -166,18 +170,19 @@ export const Contact = () => {
                                 whileInView={"show"}
                                 viewport={{once: true,amount: 0.7}} className="col-md-3 text-center">
                                 <ul className="list-unstyled mb-0">
-                                    <li>
+                                    <li className=" mb-2">
                                         {/* <SlLocationPin size={30} className="custom-icon" /> */}
-                                        <IoLocationSharp size={30} className="custom-icon" />
-                                        <p>bijapur, Dewas,(M.P.) India</p>
+                                        <IoLocationSharp size={30} className="custom-icon" /><br />
+                                        <span>sudama nagar sector-e,  </span><br />
+                                        <span>indore (M.P.) India  </span><br />
                                     </li>
                                     <li>
                                         <FaPhoneAlt size={30} className="custom-icon" />
-                                        <p>+91 91713 04392</p>
+                                        <p>+91 82605 28451 </p>
                                     </li>
                                     <li>
                                         <IoIosMail size={40} className="custom-icon" />
-                                        <p>dixitp034@gmail.com</p>
+                                        <p>harshdixit991@gmail.com</p>
                                     </li>
                                 </ul>
                             </motion.div>

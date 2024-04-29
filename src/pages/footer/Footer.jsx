@@ -20,12 +20,12 @@ export const Footer = () => {
                     <ul className="nav col-12 col-md-4 d-flex justify-content-evenly justify-content-md-end  align-items-center list-unstyled d-flex">
                         <li className="ms-sm-3"><a className="text-white" title="Github" target='_blank' href="https://github.com/PiyushDixit12" rel="noreferrer"><TiSocialGithub size={40} /></a></li>
                         <li className="ms-sm-3"><a className="text-white" title="linkedin"
-                            target='_blank' rel='noreferrer' href="https://linkedin.com/in/piyush-dixit-37066724a"><TiSocialLinkedin size={40} /></a></li>
+                            target='_blank' rel='noreferrer' href="https://linkedin.com/in/harsh-dixit-1247a1233"><TiSocialLinkedin size={40} /></a></li>
                         <li className="ms-sm-3"><a className="text-white" title='e-mail'
 
-                            rel="noreferrer" href="mailto:dixitp034@gmail.com"><IoIosMail size={40} /></a></li>
+                            rel="noreferrer" href="mailto:harshdixit991@gmail.com"><IoIosMail size={40} /></a></li>
                     </ul>
-                    <p className="w-100 text-center fs-5 pt-3 text-white"> This website is created with ❤️ by Piyush Dixit.</p> 
+                    <p className="w-100 text-center fs-5 pt-3 text-white"> This website is created with ❤️ by Harsh Dixit.</p> 
                 </Container>
             </footer>
         </>

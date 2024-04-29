@@ -3,45 +3,45 @@ import {FaCss3Alt} from "react-icons/fa";
 import {TbBrandBootstrap} from "react-icons/tb";
 import {TbBrandJavascript} from "react-icons/tb";
 import {FaGitAlt} from "react-icons/fa";
-import {FaReact} from "react-icons/fa";
+import {BiLogoFlutter} from "react-icons/bi";
 import {TbBrandVscode} from "react-icons/tb";
-import {FaAmazon} from "react-icons/fa";
+import {SiFirebase} from "react-icons/si";
 import {SkillCard} from "./SkillCard";
 import {motion} from "framer-motion";
+import dart from '../../assets/dart language.svg'
 import {fadeIn} from "../../framerConstant/variants";
 const skillsData = [
     {
         languageName: "HTML",
-        languageIcon: <FaHtml5 size={"150px"} color='rgb(172, 65, 255)' />
+        languageIcon: <FaHtml5 size={"150px"} color='rgb(21,181,114)' />
     },
     {
         languageName: "CSS",
-        languageIcon: <FaCss3Alt size={"150px"} color='rgb(172, 65, 255)' />
+        languageIcon: <FaCss3Alt size={"150px"} color='rgb(21,181,114)' />
 
     },{
         languageName: "Bootstrap",
-        languageIcon: <TbBrandBootstrap size={"150px"} color='rgb(172, 65, 255)' />
+        languageIcon: <TbBrandBootstrap size={"150px"} color='rgb(21,181,114)' />
     },
     {
-        languageName: "JavaScript",
-        languageIcon: <TbBrandJavascript size={"150px"} color='rgb(172, 65, 255)' />
+        languageName: "Vs Code",
+        languageIcon: <TbBrandVscode size={"150px"} color='rgb(21,181,114)' />
 
     },{
         languageName: "Git",
-        languageIcon: <FaGitAlt size={"150px"} color='rgb(172, 65, 255)' />
+        languageIcon: <FaGitAlt size={"150px"} color='rgb(21,181,114)' />
     },
     {
-        languageName: "React",
-        languageIcon: <FaReact size={"150px"} color='rgb(172, 65, 255)' />
+        languageName: "Dart",
+        languageIcon: <img src={dart} width={"150px"} alt="" />
 
     },{
-        languageName: "VS Code",
-        languageIcon: <TbBrandVscode size={"150px"} color='rgb(172, 65, 255)' />
-    },
-    {
-        languageName: "AWS",
-        languageIcon: <FaAmazon size={"150px"} color='rgb(172, 65, 255)' />
-
+        languageName: "Flutter",
+        languageIcon: <BiLogoFlutter size={"150px"} color='rgb(21,181,114)' />
+    }
+    ,{
+        languageName: "Firebase",
+        languageIcon: <SiFirebase size={"150px"} color='rgb(21,181,114)' />
     },
 ];
 export const Skills = () => {

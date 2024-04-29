@@ -1,6 +1,6 @@
 import {useEffect,useState} from 'react';
 import {Navbar,Nav,Offcanvas} from 'react-bootstrap';
-import logo from '../../assets/logo-no-background.png'
+
 export function Header() {
     const [activeLink,setActiveLink] = useState('home');
 
@@ -40,11 +40,12 @@ export function Header() {
         });
     },[]);
     return (
-        <Navbar expand="md" id='header' className=" position-fixed z-3 w-100 start-0 d-flex justify-content-between  p-2 px-md-5 rounded-2 bg-white shadow">
+        <Navbar expand="md" id='header' className=" position-fixed z-3 w-100 start-0 d-flex justify-content-between  p-2 px-md-5 rounded-2 bg-transparent ">
             {/* <div className="px-2"><h4>Piyush Dixit</h4></div> */}
-            <Navbar.Brand href="#home" className=' ps-4  fs-4 fst-italic ' style={{color: "#ac41ff"}}>
+            <Navbar.Brand href="#home" className=' ps-4  fs-4  text-white '>
                 {/* Piyush_Dixit */}
-                <img src={logo} width={80} alt="" />
+                <h1>H<sub className='custom-color' style={{fontSize: "10px"}}>&#9632;</sub>D<sub className=' custom-color' style={{fontSize: "10px"}}>&#9632;</sub></h1>
+                {/* <img src={logo} width={80} alt="" /> */}
             </Navbar.Brand>
             <Navbar.Toggle aria-controls='offCanvasNavbar-expand-md' />
             <Navbar.Offcanvas id={`offCanvasNavbar-expand-md`}
@@ -56,7 +57,7 @@ export function Header() {
                     <Nav className="me-auto me-md-0 h-25 d-flex justify-content-between">
                         <Nav.Link
                             href="#home"
-                            className={`nav__link fs-5 text-black text-decoration-none mx-3 ${activeLink === 'home' ? 'active' : ''
+                            className={`nav__link fs-5 text-white text-decoration-none mx-3 ${activeLink === 'home' ? 'active' : ''
                                 }`}
                             onClick={() => handleNavItemClick('home')}
                         >
@@ -64,7 +65,7 @@ export function Header() {
                         </Nav.Link>
                         <Nav.Link
                             href="#about"
-                            className={`fs-5 nav__link text-black text-decoration-none mx-3 ${activeLink === 'about' ? 'active' : ''
+                            className={`fs-5 nav__link text-white text-decoration-none mx-3 ${activeLink === 'about' ? 'active' : ''
                                 }`}
                             onClick={() => handleNavItemClick('about')}
                         >
@@ -72,7 +73,7 @@ export function Header() {
                         </Nav.Link>
                         <Nav.Link
                             href="#skills"
-                            className={`fs-5 nav__link text-black text-decoration-none mx-3 ${activeLink === 'skills' ? 'active' : ''
+                            className={`fs-5 nav__link text-white text-decoration-none mx-3 ${activeLink === 'skills' ? 'active' : ''
                                 }`}
                             onClick={() => handleNavItemClick('skills')}
                         >
@@ -80,7 +81,7 @@ export function Header() {
                         </Nav.Link>
                         <Nav.Link
                             href="#project"
-                            className={`fs-5 nav__link text-black text-decoration-none mx-3 ${activeLink === 'project' ? 'active' : ''
+                            className={`fs-5 nav__link text-white text-decoration-none mx-3 ${activeLink === 'project' ? 'active' : ''
                                 }`}
                             onClick={() => handleNavItemClick('project')}
                         >
@@ -88,7 +89,7 @@ export function Header() {
                         </Nav.Link>
                         <Nav.Link
                             href="#contact"
-                            className={`fs-5 nav__link text-black text-decoration-none mx-3 ${activeLink === 'contact' ? 'active' : ''
+                            className={`fs-5 nav__link text-white text-decoration-none mx-3 ${activeLink === 'contact' ? 'active' : ''
                                 }`}
                             onClick={() => handleNavItemClick('contact')}
                         >
