@@ -11,6 +11,8 @@ import dart from '../../assets/dart language.svg'
 import {fadeIn} from "../../framerConstant/variants";
 import {SiStrapi} from "react-icons/si";
 import {DiJavascript} from "react-icons/di";
+import {IoLogoGooglePlaystore} from "react-icons/io5";
+import {FaAppStoreIos} from "react-icons/fa6";
 const skillsData = [
     {
         languageName: "HTML",
@@ -52,6 +54,13 @@ const skillsData = [
     },{
         languageName: "Strapi Js",
         languageIcon: <SiStrapi size={"150px"} color='rgb(21,181,114)' />
+    },{
+        languageName: "App Store",
+        languageIcon: <FaAppStoreIos size={"150px"} color='rgb(21,181,114)' />
+    }
+    ,{
+        languageName: "Play Store",
+        languageIcon: <IoLogoGooglePlaystore size={"150px"} color='rgb(21,181,114)' />
     },
 ];
 export const Skills = () => {
