@@ -15,11 +15,11 @@ export const Footer = () => {
                 <Container className="d-flex flex-wrap justify-content-between align-items-center ">
                     <div className="col-12"><Contact /></div>
                     <div className="col-12 col-md-5 d-flex justify-content-center justify-content-md-start align-items-center">
-                        <span className="mb-3 mb-md-0 text-white fs-5">© 2024 all rights are reserved. </span>
+                        <span className="my-3 mb-md-0 text-white fs-5">© 2024 all rights are reserved. </span>
                     </div>
 
                     <ul className="nav col-12 col-md-4 d-flex justify-content-evenly justify-content-md-end  align-items-center list-unstyled d-flex">
-                        <li className="ms-sm-3"><a className="text-white" title="Github" target='_blank' href="https://github.com/PiyushDixit12" rel="noreferrer"><TiSocialGithub size={40} /></a></li>
+                        <li className="ms-sm-3"><a className="text-white" title="Github" target='_blank' href="https://github.com/Harsh-Dixit" rel="noreferrer"><TiSocialGithub size={40} /></a></li>
                         <li className="ms-sm-3"><a className="text-white" title="linkedin"
                             target='_blank' rel='noreferrer' href="https://linkedin.com/in/harsh-dixit-1247a1233"><TiSocialLinkedin size={40} /></a></li>
                         <li className="ms-sm-3"><a className="text-white" title='e-mail'

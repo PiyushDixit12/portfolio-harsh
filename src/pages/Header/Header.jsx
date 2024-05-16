@@ -47,12 +47,12 @@ export function Header() {
                 <h1>H<sub className='custom-color' style={{fontSize: "10px"}}>&#9632;</sub>D<sub className=' custom-color' style={{fontSize: "10px"}}>&#9632;</sub></h1>
                 {/* <img src={logo} width={80} alt="" /> */}
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls='offCanvasNavbar-expand-md' />
+            <Navbar.Toggle aria-controls='offCanvasNavbar-expand-md' className=' bg-white text-white' />
             <Navbar.Offcanvas id={`offCanvasNavbar-expand-md`}
                 aria-labelledby={`offCanvasNavbarLabel-expand-md`}
                 placement="end"   >
 
-                <Offcanvas.Header closeButton closeVariant='purple' ></Offcanvas.Header>
+                <Offcanvas.Header closeButton closeVariant='white' ></Offcanvas.Header>
                 <Offcanvas.Body className='w-100 d-flex justify-content-end'>
                     <Nav className="me-auto me-md-0 h-25 d-flex justify-content-between">
                         <Nav.Link

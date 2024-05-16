@@ -1,4 +1,4 @@
-import {FaHtml5} from "react-icons/fa";
+import {FaHtml5,FaReact} from "react-icons/fa";
 import {FaCss3Alt} from "react-icons/fa";
 import {TbBrandBootstrap} from "react-icons/tb";
 import {FaGitAlt} from "react-icons/fa";
@@ -10,6 +10,7 @@ import {motion} from "framer-motion";
 import dart from '../../assets/dart language.svg'
 import {fadeIn} from "../../framerConstant/variants";
 import {SiStrapi} from "react-icons/si";
+import {DiJavascript} from "react-icons/di";
 const skillsData = [
     {
         languageName: "HTML",
@@ -22,6 +23,12 @@ const skillsData = [
     },{
         languageName: "Bootstrap",
         languageIcon: <TbBrandBootstrap size={"150px"} color='rgb(21,181,114)' />
+    },{
+        languageName: "Java Script",
+        languageIcon: <DiJavascript size={"150px"} color='rgb(21,181,114)' />
+    },{
+        languageName: "React",
+        languageIcon: <FaReact size={"150px"} color='rgb(21,181,114)' />
     },
     {
         languageName: "Vs Code",

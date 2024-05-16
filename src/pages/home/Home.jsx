@@ -1,4 +1,4 @@
-import img from '../../assets/photo-portfolio 2.png'
+import img from '../../assets/harsh.png'
 import backgroundBlob from '../../assets/blob.svg'
 import {TiSocialLinkedin} from "react-icons/ti";
 import {FaWhatsapp} from "react-icons/fa";
@@ -43,7 +43,7 @@ export const Home = () => {
                         {/* <span style={{color: "rgb(21,181,114)"}}> Piyush Dixit</span> */}
                     </motion.span>
 
-                    <motion.span
+                    <motion.span 
                         variants={fadeIn("up",0.3)}
                         initial="hidden"
                         whileInView={"show"}
@@ -76,7 +76,7 @@ export const Home = () => {
                         viewport={{once: false,amount: 0.7}}
                         className="nav fs-1 lh-lg mt-3  d-flex justify-content-evenly justify-content-md-start  align-items-center list-unstyled d-flex">
                         <li className="ms-sm-0"><a className="text-white" title="linkedin" target='_blank' rel='noreferrer' href="https://linkedin.com/in/harsh-dixit-1247a1233"><TiSocialLinkedin className='custom-icon' size={40} /></a></li>
-                        <li className="ms-sm-4"><a className="text-white" title="Github" target='_blank' href="https://github.com/PiyushDixit12" rel="noreferrer"><SiGithub className='custom-icon' size={30} /></a></li>
+                        <li className="ms-sm-4"><a className="text-white" title="Github" target='_blank' href="https://github.com/Harsh-Dixit" rel="noreferrer"><SiGithub className='custom-icon' size={30} /></a></li>
                         <li className="ms-sm-4">
                             <a className="text-white" target='_blank' title="whats'app" href="https://web.whatsapp.com/" rel="noreferrer"><FaWhatsapp className='custom-icon' size={30} /></a></li>
                     </motion.ul>
