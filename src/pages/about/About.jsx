@@ -32,10 +32,10 @@ export const About = () => {
                     <img src={img} alt="photo self" className=' position-relative z-1 w-75' />
                 </motion.div> */}
                 <motion.div
-                    variants={fadeIn("right",0.5)}
-                    initial="hidden"
-                    whileInView={"show"}
-                    viewport={{once: true,amount: 0.7}}
+                    // variants={fadeIn("right",0.5)}
+                    // initial="hidden"
+                    // whileInView={"show"}
+                    // viewport={{once: true,amount: 0.7}}
                     className='col-12  d-flex flex-column justify-content-center mt-5 mt-md-0 '>
                     <p className="about  fs-5 lh-lg  px-lg-4 my-4">Hello, I&apos;m Harsh Dixit, a seasoned Flutter developer with 2.5 years of dedicated experience crafting dynamic and visually stunning cross-platform mobile applications. Throughout my journey in the field, I&apos;ve honed my skills in leveraging Flutter&apos;s robust framework to deliver seamless user experiences across various devices and platforms.</p>
                     <p className="about  fs-5 lh-lg  px-lg-4 my-4">
