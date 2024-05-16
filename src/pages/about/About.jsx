@@ -38,7 +38,13 @@ export const About = () => {
                     whileInView={"show"}
                     viewport={{once: true,amount: 0.7}}
                     className='col-12 col-md-6  d-flex justify-content-center mt-5 mt-md-0 '>
-                    <p className="about  fs-5 lh-lg  px-lg-4 my-4">Hey! I&apos;m Piyush Dixit , a passionate frontend developer excited about building websites that make people smile. I&apos;m all about learning and love working with others to make cool stuff happen. Currently on the lookout for a job where I can grow and contribute my passion. Let&apos;s team up and create awesome online experiences together!</p>
+                    <p className="about  fs-5 lh-lg  px-lg-4 my-4">Hello, I'm Harsh Dixit, a seasoned Flutter developer with 2.5 years of dedicated experience crafting dynamic and visually stunning cross-platform mobile applications. Throughout my journey in the field, I've honed my skills in leveraging Flutter's robust framework to deliver seamless user experiences across various devices and platforms.
+
+                        Driven by a passion for innovation and a keen eye for detail, I thrive on turning ideas into polished, functional realities. My portfolio showcases a diverse range of projects, each reflecting my commitment to excellence and my ability to adapt to evolving industry trends.
+
+                        From conceptualization to deployment, I specialize in translating client visions into intuitive and feature-rich applications that resonate with users. With a strong foundation in both front-end and back-end development, I bring a comprehensive approach to every project, ensuring scalability, performance, and user satisfaction.
+
+                        Let's collaborate to bring your next app idea to life with the magic of Flutter!</p>
                 </motion.div>
             </div>
         </>

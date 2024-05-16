@@ -80,20 +80,20 @@ export function Header() {
                             Skills
                         </Nav.Link>
                         <Nav.Link
+                            href="#ThirdParty"
+                            className={`fs-5 nav__link text-white text-decoration-none mx-3 ${activeLink === 'ThirdParty' ? 'active' : ''
+                                }`}
+                            onClick={() => handleNavItemClick('ThirdParty')}
+                        >
+                            Third Party
+                        </Nav.Link>
+                        <Nav.Link
                             href="#project"
                             className={`fs-5 nav__link text-white text-decoration-none mx-3 ${activeLink === 'project' ? 'active' : ''
                                 }`}
                             onClick={() => handleNavItemClick('project')}
                         >
                             Project
-                        </Nav.Link>
-                        <Nav.Link
-                            href="#contact"
-                            className={`fs-5 nav__link text-white text-decoration-none mx-3 ${activeLink === 'contact' ? 'active' : ''
-                                }`}
-                            onClick={() => handleNavItemClick('contact')}
-                        >
-                            Contact
                         </Nav.Link>
                     </Nav>
                 </Offcanvas.Body>

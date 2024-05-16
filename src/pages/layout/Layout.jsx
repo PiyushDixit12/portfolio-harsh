@@ -5,7 +5,7 @@ import {Home} from '../home/Home'
 import {About} from '../about/About'
 import {Skills} from '../skill/Skills'
 import {Projects} from '../projects/Projects'
-import {Contact} from '../contact/Contact'
+import {ThirdPartyApi} from '../thirdpartyapi/ThirdPartyApi'
 
 export const Layout = () => {
     return (
@@ -16,8 +16,9 @@ export const Layout = () => {
                     <Home />
                     <About />
                     <Skills />
+                    <ThirdPartyApi />
                     <Projects />
-                    <Contact />
+
                 </main>
             </Container>
             <Footer />

@@ -9,6 +9,7 @@ import {SkillCard} from "./SkillCard";
 import {motion} from "framer-motion";
 import dart from '../../assets/dart language.svg'
 import {fadeIn} from "../../framerConstant/variants";
+import {SiStrapi} from "react-icons/si";
 const skillsData = [
     {
         languageName: "HTML",
@@ -41,6 +42,9 @@ const skillsData = [
     ,{
         languageName: "Firebase",
         languageIcon: <SiFirebase size={"150px"} color='rgb(21,181,114)' />
+    },{
+        languageName: "Strapi Js",
+        languageIcon: <SiStrapi size={"150px"} color='rgb(21,181,114)' />
     },
 ];
 export const Skills = () => {
@@ -53,7 +57,7 @@ export const Skills = () => {
                     whileInView={"show"}
                     viewport={{once: true,amount: 0.7}}
                     className="w-100 text-center pt-5"> <span className="heading-title"> Skill</span>s</motion.h1>
-                <div className=" py-5  my-5 row d-flex justify-content-center align-items-center  mb-5">
+                <div className=" py-5  my-5 row d-flex justify-content-start align-items-center  mb-5">
                     {skillsData && skillsData.map((detail,index) => {
                         return <SkillCard key={index} {...detail} />
                     })}

@@ -2,6 +2,7 @@ import {TiSocialLinkedin} from "react-icons/ti";
 import {TiSocialGithub} from "react-icons/ti";
 import {IoIosMail} from "react-icons/io";
 import {Container} from "react-bootstrap";
+import {Contact} from "../contact/Contact2";
 export const Footer = () => {
     return (
         <>
@@ -12,7 +13,7 @@ export const Footer = () => {
                     <div className="wave" id="wave3"></div>
                     <div className="wave" id="wave4"></div></div>   
                 <Container className="d-flex flex-wrap justify-content-between align-items-center ">
-
+                    <div className="col-12"><Contact /></div>
                     <div className="col-12 col-md-5 d-flex justify-content-center justify-content-md-start align-items-center">
                         <span className="mb-3 mb-md-0 text-white fs-5">© 2024 all rights are reserved. </span>
                     </div>
