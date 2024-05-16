@@ -54,7 +54,7 @@ body{
 }
 
 .about {
-  text-align: center !important;
+  text-align: justify !important;
 }
 
 .text-justify {
@@ -64,7 +64,7 @@ body{
   cursor: pointer;
   background-color: transparent !important;
 }
-@media screen and (max-width:768px) {
+  @media screen and (max-width:768px) {
   .fs-1{
     font-size: 2rem !important;
   }
