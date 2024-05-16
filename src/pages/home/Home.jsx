@@ -58,7 +58,7 @@ export const Home = () => {
                         whileInView={"show"}
                         viewport={{once: true,amount: 0.7}}
                         className='fs-6 text-white-50 fw-bold d-inline-block'>
-                        currently  working on <span className=' text-white'>web wider&apos;s solutions</span>
+                        Currently  working on <span className=' text-white'>web wider&apos;s solutions</span>
                     </motion.span>
                     <motion.span
                         variants={fadeIn("up",0.3)}
@@ -78,7 +78,7 @@ export const Home = () => {
                         <li className="ms-sm-0"><a className="text-white" title="linkedin" target='_blank' rel='noreferrer' href="https://linkedin.com/in/harsh-dixit-1247a1233"><TiSocialLinkedin className='custom-icon' size={40} /></a></li>
                         <li className="ms-sm-4"><a className="text-white" title="Github" target='_blank' href="https://github.com/Harsh-Dixit" rel="noreferrer"><SiGithub className='custom-icon' size={30} /></a></li>
                         <li className="ms-sm-4">
-                            <a className="text-white" target='_blank' title="whats'app" href="https://web.whatsapp.com/" rel="noreferrer"><FaWhatsapp className='custom-icon' size={30} /></a></li>
+                            <a className="text-white" target='_blank' title="whats'app" href="https://wa.me/qr/VRHHK7KBQ5TOK1" rel="noreferrer"><FaWhatsapp className='custom-icon' size={30} /></a></li>
                     </motion.ul>
                 </div>
                 <motion.div
