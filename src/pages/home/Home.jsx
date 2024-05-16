@@ -58,7 +58,7 @@ export const Home = () => {
                         whileInView={"show"}
                         viewport={{once: true,amount: 0.7}}
                         className='fs-6 text-white-50 fw-bold d-inline-block'>
-                        Currently  working on <span className=' text-white'>web wider&apos;s solutions</span>
+                        Currently  working on <span className=' text-white'>Web wider&apos;s solutions</span>
                     </motion.span>
                     <motion.span
                         variants={fadeIn("up",0.3)}
