@@ -13,6 +13,12 @@ body{
   background-color: rgb(7,17,26) !important;
   color: white !important;
 }
+.badge-custom {
+  display: inline-block !important;
+  padding: 3px 15px;
+  border-radius: 10px !important;
+}
+
 .custom-color,
 .custom-color:hover,
 .custom-color:active,

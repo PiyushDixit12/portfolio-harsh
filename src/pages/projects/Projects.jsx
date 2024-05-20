@@ -9,7 +9,7 @@ import {fadeIn} from '../../framerConstant/variants'
 const projectData = [
     {
         img: p1,
-        title: "Trader",
+        title: "S-trader",
         description: "S Trader is a virtual trading app that helps to learn trading, now experience virtual trading with real-time quotes of financial instruments and various asset classes. Get access to a complete set of trade orders, including pending orders with various types of trade execution and tools to keep a track of your trades with a detailed trading history.",
         // aboutLocation: "currently working in S.S.I.S.M. College",
         aboutLocation: "Duration September 2023 to feb 2024 ",

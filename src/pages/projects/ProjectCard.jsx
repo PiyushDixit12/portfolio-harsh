@@ -19,10 +19,10 @@ export const ProjectCard = ({img,title,description,aboutLocation,ios,android,web
                             <p className="card-text text-justify text-white-50">{description}</p>
                             <p className="card-text w-auto"><small className=" text-light-emphasis">{aboutLocation}</small></p>
 
-                            {android != "" && android != null && <Nav.Link href={android} target='_blank' className=' text-center d-inline-block me-3  custom-color fs-6 fw-bold'> Android</Nav.Link>}
+                            {android != "" && android != null && <Nav.Link href={android} target='_blank' className=' text-center d-inline-block me-3  text-white fs-6 fw-bold badge-custom' style={{backgroundColor: "rgb(21,181,114)"}}> Android</Nav.Link>}
 
-                            {web != "" && web != null && <Nav.Link style={{color: "blue"}} href={web} target='_blank' className=' text-center d-inline-block  me-3  fs-6 fw-bold'> Web</Nav.Link>}
-                            {ios != "" && ios != null && <Nav.Link style={{color: "yellow"}} href={ios} target='_blank' className=' text-center d-inline-block me-3  fs-6 fw-bold'> IOS</Nav.Link>}
+                            {web != "" && web != null && <Nav.Link style={{backgroundColor: "blue"}} href={web} target='_blank' className=' text-center d-inline-block text-white me-3 px-3  fs-6 fw-bold badge-custom'> Web</Nav.Link>}
+                            {ios != "" && ios != null && <Nav.Link style={{backgroundColor: "yellow"}} href={ios} target='_blank' className=' text-center d-inline-block me-3 text-dark fs-6 fw-bold badge-custom'> IOS</Nav.Link>}
                         </div>
                     </div>
                 </div>
