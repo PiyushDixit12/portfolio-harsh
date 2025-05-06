@@ -82,6 +82,10 @@ body{
     top: -70px !important;
   }
 }
+#header{
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
 
 /* #header{
   position: -webkit-sticky !important;
