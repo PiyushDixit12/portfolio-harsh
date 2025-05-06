@@ -30,6 +30,10 @@ body{
   color:rgb(21,181,114);
   cursor: pointer;
 }
+.custom-icon-without-color:hover{
+  /* color:rgb(21,181,114); */
+  cursor: pointer;
+}
 .border-custom-color{
   border-color:rgb(0, 140, 82) !important;
 }

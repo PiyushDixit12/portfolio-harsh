@@ -27,17 +27,17 @@ export const Contact = () => {
                                 <ul className="list-unstyled d-flex flex-column flex-sm-row flex-wrap justify-content-between align-items-center mb-0">
                                     <li className=" mb-3">
                                         {/* <SlLocationPin size={30} className="custom-icon" /> */}
-                                        <IoLocationSharp size={30} className="custom-icon" /><br />
+                                        <IoLocationSharp size={30} className="custom-icon-without-color" /><br />
                                         <span>3421 sector E sudama nagar</span><br />
                                         <span> near sent Mary champion school,  </span><br />
                                         <span>indore (M.P.) India  </span><br />
                                     </li>
                                     <li>
-                                        <FaPhoneAlt size={30} className="custom-icon" />
+                                        <FaPhoneAlt size={30} className="custom-icon-without-color" />
                                         <p>+91 82695 28451 </p>
                                     </li>
                                     <li>
-                                        <IoIosMail size={40} className="custom-icon" />
+                                        <IoIosMail size={40} className="custom-icon-without-color" />
                                         <p>harshdixit991@gmail.com</p>
                                     </li>
                                 </ul>
